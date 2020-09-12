@@ -1,4 +1,17 @@
 ﻿division_template = {
+	name = "Ryhmä"			#Garrison
+	division_names_group = OLE_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+	support = {
+	}
+	priority = 0
+}
+division_template = {
 	name = "Stark Hovar Division"			#Stark Hovar Division - kek
 	division_names_group = OLE_INF_01
 	regiments = {
@@ -26,19 +39,6 @@ division_template = {
 	support = {
 	}
 	priority = 2
-}
-division_template = {
-	name = "Ryhmä"			#Garrison
-	division_names_group = OLE_GAR_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-
-	support = {
-	}
-	priority = 0
 }
 division_template = {
 	name = "Skogvaktare Väpnad Grupp"			#Elites ahahahaha

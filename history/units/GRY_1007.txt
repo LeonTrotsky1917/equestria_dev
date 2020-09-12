@@ -1,4 +1,17 @@
 ﻿division_template = {
+	name = "Okhoronets Polk"
+	division_names_group = GRY_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+	support = {
+	}
+}
+
+division_template = {
 	name = "Pikhotnyy Polk"
 	division_names_group = GRY_INF_01
 	regiments = {
@@ -10,19 +23,6 @@
 		infantry = { x = 1 y = 2 }
 	}
 
-	support = {
-	}
-}
-
-division_template = {
-	name = "Okhoronets Polk"
-	division_names_group = GRY_INF_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-	priority = 0
 	support = {
 	}
 }

@@ -1,4 +1,17 @@
 ﻿division_template = {
+	name = "Protection Company"
+	division_names_group = TRD_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+	priority = 0
+}
+
+division_template = {
 	name = "Skyfall Company"			#Infantry Group - kek
 	division_names_group = TRD_INF_01
 	regiments = {
@@ -63,19 +76,6 @@ division_template = {
 		recon = { x = 0 y = 0 }
 		artillery = { x = 0 y = 1 }
 	}
-}
-
-division_template = {
-	name = "Protection Company"
-	division_names_group = TRD_GAR_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-	support = {
-	}
-	priority = 0
 }
 
 units = {

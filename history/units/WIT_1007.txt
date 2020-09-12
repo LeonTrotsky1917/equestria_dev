@@ -1,4 +1,16 @@
 ﻿division_template = {
+	name = "Garrison Division"			#Infantry Division - kek
+	division_names_group = WIT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+	priority = 0
+}
+division_template = {
 	name = "Highlander Guard"
 	division_names_group = WIT_GRD_01
 
@@ -33,18 +45,6 @@ division_template = {
 		artillery = { x = 0 y = 1 }
 		engineer = { x = 0 y = 2 }
 	}
-}
-division_template = {
-	name = "Garrison Division"			#Infantry Division - kek
-	division_names_group = WIT_INF_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-	support = {
-	}
-	priority = 0
 }
 units = {
 	division = {

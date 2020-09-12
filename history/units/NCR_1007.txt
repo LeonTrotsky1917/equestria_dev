@@ -1,4 +1,15 @@
 ﻿division_template = {
+	name = "Infantry Regiment"
+	division_names_group = NCR_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+	priority = 0
+}
+division_template = {
 	name = "Infantry Division"
 	division_names_group = NCR_INF_01
 	regiments = {
@@ -14,18 +25,6 @@
 		engineer = { x = 0 y = 0 }
 		artillery = { x = 0 y = 1 }
 	}
-}
-
-division_template = {
-	name = "Infantry Regiment"
-	division_names_group = NCR_INF_02
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-
-	priority = 0
 }
 division_template = {
 	name = "Ranger Division"

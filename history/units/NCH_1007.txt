@@ -1,4 +1,14 @@
-﻿
+﻿division_template = {
+	name = "Peasant Levy"
+	division_names_group = NCH_INF_02
+
+	priority = 0
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
 division_template = {
 	name = "Household Guard"
 	division_names_group = NCH_INF_01
@@ -13,17 +23,6 @@ division_template = {
 	}
 
 	support = {
-	}
-}
-division_template = {
-	name = "Peasant Levy"
-	division_names_group = NCH_INF_02
-
-	priority = 0
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 	}
 }
 units = {

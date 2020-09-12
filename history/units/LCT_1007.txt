@@ -1,4 +1,16 @@
 ﻿division_template = {
+	name = "Garrison Division"			#Infantry Division - kek
+	division_names_group = LCT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+	priority = 0
+}
+division_template = {
 	name = "Onhooves Division"			#Infantry Division - kek
 	division_names_group = LCT_INF_01
 	regiments = {
@@ -30,18 +42,6 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 	}
-}
-division_template = {
-	name = "Garrison Division"			#Infantry Division - kek
-	division_names_group = LCT_INF_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-	support = {
-	}
-	priority = 0
 }
 units = {
 	division = {
